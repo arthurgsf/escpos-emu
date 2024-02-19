@@ -9,7 +9,7 @@
 - Logs commands and visually represents the resulting receipt(s)
 - With italics text cutting bug corrected
 
-👷 **This is an unfinished experiment.** Use at your own risk and keep your expectations low. :)
+👷 **This is a working in progress.** Use at your own risk and keep your expectations low. :)
 
 ### Supported commands
 
