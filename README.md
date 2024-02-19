@@ -56,6 +56,7 @@ This program emulates a printer with the following specifications:
 
 ### References
 
+https://github.com/roydejong/EscPosEmulator
 https://aures-support.com/DATA/drivers/Imprimantes/Commande%20ESCPOS.pdf<br>
 https://www.starmicronics.com/support/Mannualfolder/escpos_cm_en.pdf<br>
 https://www.printercontroller.com/kcfinder/upload/files/esc_pos_commands_1_0_7.pdf<br>
