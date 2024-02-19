@@ -56,10 +56,10 @@ This program emulates a printer with the following specifications:
 
 ### References
 
-https://aures-support.com/DATA/drivers/Imprimantes/Commande%20ESCPOS.pdf
-https://www.starmicronics.com/support/Mannualfolder/escpos_cm_en.pdf
-https://www.printercontroller.com/kcfinder/upload/files/esc_pos_commands_1_0_7.pdf
-https://www.electronicaembajadores.com/Datos/pdf1/i5/i5tm/i5tm004.pdf
-https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/
-https://escpos.readthedocs.io/en/latest/commands.html
-https://tabshop.smartlab.at/help-topics/help-esc-pos-codes.html
+https://aures-support.com/DATA/drivers/Imprimantes/Commande%20ESCPOS.pdf<br>
+https://www.starmicronics.com/support/Mannualfolder/escpos_cm_en.pdf<br>
+https://www.printercontroller.com/kcfinder/upload/files/esc_pos_commands_1_0_7.pdf<br>
+https://www.electronicaembajadores.com/Datos/pdf1/i5/i5tm/i5tm004.pdf<br>
+https://download4.epson.biz/sec_pubs/pos/reference_en/escpos/<br>
+https://escpos.readthedocs.io/en/latest/commands.html<br>
+https://tabshop.smartlab.at/help-topics/help-esc-pos-codes.html<br>
