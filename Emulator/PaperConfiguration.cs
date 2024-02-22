@@ -4,21 +4,31 @@ using ReceiptPrinterEmulator.Emulator.Enums;
 
 namespace ReceiptPrinterEmulator.Emulator;
 
+// 2024.02.18 Leo - Change FontB size to match Esc/pos specification
+// 2024.02.18 Leo - Add FontC & FontD specification & tab spacing
+
 public class PaperConfiguration
 {
     private const double MmToInch = 0.0393701;
 
     public static PaperConfiguration Default => new();
 
-    public double DotsPerInch = 180;
+    public double DotsPerInch = 203;
     public double PaperWidthMm = 80;
-    public double PrintWidthMm = 72;
+    public double PrintWidthMm = 76;
     public int DefaultLineSpacing = 10;
+    public int DefaultTabSpacing = 8;
 
     public Dictionary<PrinterFont, FontConfiguration> _printerFonts = new()
     {
-        {PrinterFont.FontA, new FontConfiguration(PrinterFont.FontA, 12, 24, "Consolas")},
-        {PrinterFont.FontB, new FontConfiguration(PrinterFont.FontB, 12, 24, "Consolas")}
+        //{PrinterFont.FontA, new FontConfiguration(PrinterFont.FontA, 12, 24, "Consolas")},
+        //{PrinterFont.FontB, new FontConfiguration(PrinterFont.FontB, 9, 24, "Consolas")},
+        //{PrinterFont.FontC, new FontConfiguration(PrinterFont.FontC, 24, 48, "Consolas")},
+        //{PrinterFont.FontD, new FontConfiguration(PrinterFont.FontD, 16, 24, "Consolas")}
+        {PrinterFont.FontA, new FontConfiguration(PrinterFont.FontA, 12, 24, "MS Gothic")},
+        {PrinterFont.FontB, new FontConfiguration(PrinterFont.FontB, 9, 24,  "MS Gothic")},
+        {PrinterFont.FontC, new FontConfiguration(PrinterFont.FontC, 24, 48, "MS Gothic")},
+        {PrinterFont.FontD, new FontConfiguration(PrinterFont.FontD, 16, 24, "MS Gothic")}
     };
 
     public FontConfiguration GetFont(PrinterFont printerFont)

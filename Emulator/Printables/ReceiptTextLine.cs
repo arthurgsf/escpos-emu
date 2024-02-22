@@ -78,7 +78,9 @@ public class ReceiptTextLine : IReceiptPrintable
                 rect.X += (_printWidth - _totalWidth);
             }
             
+            if (_italic) rect.Width += 10; // Leo@2024.02.19 - Only needed with italic because it continue in the next cell
             g.DrawString(c.ToString(), font, Brushes.Black, rect);
+            if (_italic) rect.Width -= 10;
 
             if (_underline is UnderlineMode.OnOneDot or UnderlineMode.OnTwoDots)
             {

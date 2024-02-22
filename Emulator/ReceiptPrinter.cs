@@ -15,6 +15,7 @@ public class ReceiptPrinter
 
     private PrintMode _printMode;
     private int _lineSpacing;
+    private int _tabSpacing;
     
     public Receipt CurrentReceipt { get; private set; }
     public List<Receipt> ReceiptStack { get; private set; }
@@ -89,6 +90,7 @@ public class ReceiptPrinter
         SelectItalicMode(false);
         SelectUnderlineMode(UnderlineMode.Off);
         SetDefaultLineSpacing();
+        SetDefaultTabSpacing();
     }
 
     public void PrintText(string text)
@@ -178,7 +180,17 @@ public class ReceiptPrinter
         CurrentReceipt.SetLineSpacing(_lineSpacing);
     }
 
+    public void SetTabSpacing(int value)
+    {
+        Logger.Info($"Set tab spacing: {value}");
+
+        _tabSpacing = value;
+        CurrentReceipt.SetTabSpacing(_tabSpacing);
+    }
+
     public void SetDefaultLineSpacing() => SetLineSpacing(_paperConfiguration.DefaultLineSpacing);
+
+    public void SetDefaultTabSpacing() => SetTabSpacing(_paperConfiguration.DefaultTabSpacing);
     
     #endregion
 
@@ -191,6 +203,14 @@ public class ReceiptPrinter
     {
         PrintText(printBuffer);
         LineFeed();
+    }
+
+    public void PrintTab()
+    {
+    		string tabs = "";
+    		
+    		for (var i = 0; i < _tabSpacing; i++) tabs += " ";
+        PrintText(tabs);
     }
 
     #endregion
