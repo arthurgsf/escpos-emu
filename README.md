@@ -1,4 +1,4 @@
-﻿# ESC/POS Receipt Printer Emulator v1.01
+﻿# ESC/POS Receipt Printer Emulator
 🖨️ **This app emulates a networked receipt printer to test your ESC/POS commands against.**
 
 ![Emulator](https://user-images.githubusercontent.com/6772638/160160456-faf28c07-72ac-43c4-907f-6258376cd483.png)
@@ -56,7 +56,6 @@ This program emulates a printer with the following specifications:
 
 ### References
 
-https://github.com/roydejong/EscPosEmulator<br>
 https://aures-support.com/DATA/drivers/Imprimantes/Commande%20ESCPOS.pdf<br>
 https://www.starmicronics.com/support/Mannualfolder/escpos_cm_en.pdf<br>
 https://www.printercontroller.com/kcfinder/upload/files/esc_pos_commands_1_0_7.pdf<br>
