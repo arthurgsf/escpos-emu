@@ -4,12 +4,12 @@
 ![Emulator](https://user-images.githubusercontent.com/6772638/160160456-faf28c07-72ac-43c4-907f-6258376cd483.png)
 
 ### About
-- Windows application (WPF + .NET 6)
+- Forked from (Originally a Windows application (WPF + .NET 6))
+- Changed rendering lib to SkiaSharp
+- Did some minor refactoring 
 - Binds to a TCP/IP interface and listens for ESC/POS commands
-- Logs commands and visually represents the resulting receipt(s)
-- With italics text cutting bug corrected
 
-👷 **This is a working in progress.** Use at your own risk and keep your expectations low. :)
+⚠️Edit Program.cs and change input/output files, or bind input to a tcp endpoint.
 
 ### Supported commands
 

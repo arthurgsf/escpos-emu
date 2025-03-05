@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{AB2365E6-5981-4350-A9D2-A71A11CF24F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB2365E6-5981-4350-A9D2-A71A11CF24F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2365E6-5981-4350-A9D2-A71A11CF24F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2365E6-5981-4350-A9D2-A71A11CF24F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2365E6-5981-4350-A9D2-A71A11CF24F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
